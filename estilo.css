@@ -2,22 +2,45 @@
 body{
     font-family: helvetica, sans-serif;
 }
+a:link, a:visited{
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 #wrap{
     width: 960px;
     margin: auto;
-    color: #e3e3e3;
+    background: #e3e3e3;
+    padding: 10 px 20px;
     
 }
-a{
-    color: green;
-    margin: auto;
+header nav ul{
+    list-style: none;
+    padding-left: 0px;
+
 }
-h2{
-    color:indigo;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+
 }
-h1{
-    color: lightcoral;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
+header nav ul li a{
+    font-size: 18px;
+}
+#content{
+    float: left;
+    width: 660px;
+
+}
+#sidebar{
+    float: right;
+    width: 300px;
+}
+#sidebar ul{
+    list-style: none;
+}
+footer{
+    clear: both;
 }
