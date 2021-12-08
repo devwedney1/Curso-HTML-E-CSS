@@ -1,0 +1,18 @@
+/*Aula 10*/
+label, input[type=submit] input[type=txt], textarea{
+    display: block;
+}
+textarea{
+    width: 300px;
+    height: 80px;
+}
+input[type=submit]{
+    background: #333333;
+    color:  #ffffff;
+    cursor:  pointer;
+    padding: 10px 20px;
+    border: 0;
+}
+input[type=submit]:hover{
+    background: #ff6600 ;
+}
