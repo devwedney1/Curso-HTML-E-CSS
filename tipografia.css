@@ -1,0 +1,14 @@
+/*Aula 11*/
+h1{
+    color: #ff6600;
+    letter-spacing: -1px;
+    text-transform:capitalize;
+    width: 650px;
+    text-shadow:1px 1px 1px black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+    width: 650px;
+    font-size: 18px;
+    font-family:Verdana, arial,sans-serif;
+}
